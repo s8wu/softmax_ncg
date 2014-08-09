@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.optimize import minimize
 
-class Softmax():
+class Softmax_Ncg():
     
     _params = None
     _validError = float('inf')
