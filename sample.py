@@ -24,4 +24,4 @@ softmaxNode.fit(train, y, batch_size=0.75, maxiter=10, valid_frac=0.166667,
 pred = softmaxNode.predict(test)
 pred = enc.active_features_[pred]
 error = np.sum(pred != testLabels) / np.double(len(testLabels))
-print('Test error: ' + str(error))
+print('\n\nTest error: ' + str(error))
